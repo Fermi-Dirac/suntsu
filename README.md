@@ -1,2 +1,1 @@
-# suntsu
-MSF War calculation tool
+suntsu
