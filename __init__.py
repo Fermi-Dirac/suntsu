@@ -1,7 +1,9 @@
 import sys
 import logging
+import os
 sys.path.append(r'D:\Users\Chris\Documents\Python')
 
+module_path = os.path.dirname(__file__)
 
 def setup_logger(name='default', loglevel=logging.DEBUG):
     logger = logging.getLogger(name)
